@@ -1,1 +1,7 @@
 *.md filter=lfs diff=lfs merge=lfs -text
+*.16 grab final filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.url filter=lfs diff=lfs merge=lfs -text
+*. too bad filter=lfs diff=lfs merge=lfs -text
