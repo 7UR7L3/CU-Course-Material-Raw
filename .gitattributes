@@ -41,3 +41,5 @@
 *.dia filter=lfs diff=lfs merge=lfs -text
 *.autosave filter=lfs diff=lfs merge=lfs -text
 *.dia~ filter=lfs diff=lfs merge=lfs -text
+*.29 filter=lfs diff=lfs merge=lfs -text
+*.pklz filter=lfs diff=lfs merge=lfs -text
