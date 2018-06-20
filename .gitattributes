@@ -57,3 +57,4 @@
 *.whtt filter=lfs diff=lfs merge=lfs -text
 *.css filter=lfs diff=lfs merge=lfs -text
 *.lst filter=lfs diff=lfs merge=lfs -text
+*.download filter=lfs diff=lfs merge=lfs -text
