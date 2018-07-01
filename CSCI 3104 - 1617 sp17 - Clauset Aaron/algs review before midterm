@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:688d153c2321928a70b22e99a1c44075b06843c618c35a30a3f8a392f8900bd6
-size 962
+algs review day mebbe
+_____________________
+
+closed everything
+
+12:30-1:45 strictly
+
+writing implement only >.>
+
+_____________________
+
+for sure on exam:
+
+if you need the master theorem, he will provide it; cheat sheet at end; just know how to use
+
+if you need to solve non-trivial summations, he will provide it; cheat sheet at end
+	should be able to solve by self: sum from i=1 to n of i, sum from i=1 to n of 1/i = lg n
+
+no string alignment on midterm, no largest common substring
+	ie knapsack
+
+no extra credit
+
+idk rule applies (rounded down)
+
+be prepared to run an algorithm from class on an input
+	input; use x to produce output / what is 16th step stuff; small input sizes though
+	ie knapsack algorithm will not be written out for us
+
+WARNING
+	there will be a proof question
+
+come up with algorithm, prove correctness, determine asymptotic stuff
+
+no matrix multiplication
+
+rod cutting is fair game!
+
+no lg*n
+
+may see:
+	T(n)=AT(n/B)+f(n)
+	T(n)=AT(n-B)+f(n)

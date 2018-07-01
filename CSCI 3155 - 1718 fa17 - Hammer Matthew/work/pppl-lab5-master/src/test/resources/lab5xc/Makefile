@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5888deca6b0836ac51834baf1e70f64d08db79b21f304ea0890dc08bf5abef63
-size 263
+JSYDIR=../../../../../..
+JSY=./reflab5.sh
+
+CWD :=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
+
+TESTS=$(wildcard *.jsy)
+ANSWERS=${TESTS:%.jsy=%.ans}
+
+all: ${ANSWERS}
+clean:
+	rm -f ${ANSWERS}
+
+%.ans: %.jsy
+	cd ${JSYDIR}; \
+	${JSY} ${CWD}/$< >${CWD}/$@

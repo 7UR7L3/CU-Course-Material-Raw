@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:722871a584572795c1418a6b7cd0e1ee096b22390e1719974a3bdfa1c76dd5a2
-size 1096
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include src/subdir.mk
+-include subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+
+# All Target
+all: phase2_fullA.xexe
+
+# Tool invocations
+phase2_fullA.xexe: $(OBJS) $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: Codasip C Linker'
+	ssheafor4-ia-ld -nostdlib -defsym _STACK_SIZE=0x2000 -defsym _HEAP_SIZE=0x0 -o "phase2_fullA.xexe" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) phase2_fullA.xexe
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets

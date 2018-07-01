@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5447c0d7c29553a1f3c5e29250c458b3d43cd5a547ee62885aed00f119dbb9df
-size 1093
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.init
+
+RM := rm -rf
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include src/subdir.mk
+-include subdir.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+
+# All Target
+all: add_test.xexe
+
+# Tool invocations
+add_test.xexe: $(OBJS) $(USER_OBJS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: Codasip C Linker'
+	cu_RISCV_ISA-ia-gcc -nodefaultlibs -Wl,-defsym,_STACK_SIZE=0x2000,-defsym,_HEAP_SIZE=0x0 -o "add_test.xexe" $(OBJS) $(USER_OBJS) $(LIBS)
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) add_test.xexe
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets
