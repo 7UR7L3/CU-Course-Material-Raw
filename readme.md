@@ -19,11 +19,11 @@
 | `MATH 4730` _Set Theory_                           | `CSCI 4830` _Principles of Functional Programming_                  |
 |                                                    |                                                                     |
 | ***Year 3: 2018-2019 --- Fall Term***              | ***Year 3: 2018-2019 --- Spring Term***                             |
-| `CSCI 3434` _Theory of Computation_                | `ATOC 1050` _Weather and the Atmosphere_                            |
-| `CSCI 4229` _Computer Graphics_                    | `ATOC 1060` _Our Changing Environment: El Nino, Ozone, and Climate_ |
-| `CSCI 4253` _Datacenter Scale Computing_           | `CSCI 3832` _Natural Language Processing_                           |
-| `CSCI 4273` _Network Systems_                      | `CSCI 4318` _Software Engineering Project 2_                        |
-| `CSCI 4308` _Software Engineering Project 1_       | `CSCI 4446` _Chaotic Dynamics_                                      |
+| `CSCI 3434` _Theory of Computation_                | `CSCI 3832` _Natural Language Processing_                           |
+| `CSCI 4229` _Computer Graphics_                    | `CSCI 4318` _Software Engineering Project 2_                        |
+| `CSCI 4253` _Datacenter Scale Computing_           | `GEOL 1010` _Exploring Earth_                                       |
+| `CSCI 4273` _Network Systems_                      | `GEOL 1020` _History of a Habitable Planet_                         |
+| `CSCI 4308` _Software Engineering Project 1_       |                                                                     |
 | `PHYS 3050` _Writing in Physics_                   |                                                                     |
 
 ---
@@ -36,26 +36,24 @@
 
 # University of Colorado Boulder
 
-### (enrolled in, tentative) Sp19 - Yr3 - Sem2
-| Days    | Time              | Location   | Code      | Course | Instructor | Hrs | Grade |
-| ------- | ----------------- | ---------- | --------- | - | - | - | - |
-| `.T.H.` |  9:30AM - 10:45AM | ECCR 135   | CSCI 4446 | Chaotic Dynamics               | Elizabeth Bradley | 3   | ?     |
-| `.T.H.` | 12:30PM -  1:45PM | DUAN G1B30 | ATOC 1060 | Our Changing Environment       | Donata Giglio     | 3   | ?     |
-| `M.W.F` |  1:00PM -  1:50PM | EKLC E1B20 | CSCI 3832 | Natural Language Processing    | James Martin      | 3   | ?     |
-| `.T.H.` |  3:30PM -  4:45PM | CHEM 140   | ATOC 1050 | Weather and the Atmosphere     | Jan Lenaerts      | 3   | ?     |
-| `M.W..` |  5:30PM -  6:45PM | KOBL S135  | CSCI 4318 | Software Engineering Project 2 | Sreesha Nath      | 4   | ?     |
+### Sp19 - Yr3 - Sem2
+| Days    | Time              | Location   | Code      | Course                         | Instructor        | Hrs | Grade |
+| ------- | ----------------- | ---------- | --------- | ------------------------------ | ----------------- | --- | ----- |
+| `M.W.F` |  1:00PM -  1:50PM | EKLC E1B20 | CSCI 3832 | Natural Language Processing    | James Martin      | 3   | A     |
+| `M.W..` |  5:30PM -  6:45PM | KOBL S135  | CSCI 4318 | Software Engineering Project 2 | Sreesha Nath      | 4   | A     |
 | `.T...` |  5:30PM -  6:45PM | KOBL S135  | CSCI 4318 | (recitation)                   | James Watson      | -   | -     |
-
+| `.....` | ONLINE            | Cont. Ed.  | GEOL 1010 | Exploring Earth                | Alan Lester       | 3   | A     |
+| `.....` | ONLINE            | Cont. Ed.  | GEOL 1020 | History of a Habitable Planet  | Alan Lester       | 3   | A     |
 
 ### Fa18 - Yr3 - Sem1
 | Days    | Time              | Location   | Code      | Course                                           | Instructor                     | Hrs | Grade |
 | ------- | ----------------- | ---------- | --------- | ------------------------------------------------ | ------------------------------ | --- | ----- |
-| `.T.H.` |  9:30AM - 10:45AM | ECCR 135   | CSCI 3434 | Theory of Computation                            | Rafael Frongillo               | 3   | ?     |
-| `.T.H.` | 12:30PM -  1:45PM | ECCS 1B12  | CSCI 4253 | Datacenter Scale Computing                       | Eric Rozner                    | 3   | ?     |
-| `M.W..` |  3:00PM -  4:15PM | ECCS 1B12  | CSCI 4273 | Network Systems                                  | Sangtae Ha                     | 3   | ?     |
-| `.T.H.` |  3:30PM -  4:45PM | DUAN G1B25 | PHYS 3050 | Writing in PHysics: Problem-Solving and Rhetoric | Donald Wilkerson               | 3   | ?     |
-| `...H.` |  5:00PM -  7:30PM | ECCS 1B12  | CSCI 4229 | Computer Graphics                                | Willem Schreuder               | 3   | ?     |
-| `M.W..` |  5:30PM -  6:45PM | KOBL S135  | CSCI 4308 | Software Engineering Project 1                   | Sreesha Nath, Trevor DiMartino | 4   | ?     |
+| `.T.H.` |  9:30AM - 10:45AM | ECCR 135   | CSCI 3434 | Theory of Computation                            | Rafael Frongillo               | 3   | A     |
+| `.T.H.` | 12:30PM -  1:45PM | ECCS 1B12  | CSCI 4253 | Datacenter Scale Computing                       | Eric Rozner                    | 3   | A-    |
+| `M.W..` |  3:00PM -  4:15PM | ECCS 1B12  | CSCI 4273 | Network Systems                                  | Sangtae Ha                     | 3   | A     |
+| `.T.H.` |  3:30PM -  4:45PM | DUAN G1B25 | PHYS 3050 | Writing in PHysics: Problem-Solving and Rhetoric | Donald Wilkerson               | 3   | A     |
+| `...H.` |  5:00PM -  7:30PM | ECCS 1B12  | CSCI 4229 | Computer Graphics                                | Willem Schreuder               | 3   | A     |
+| `M.W..` |  5:30PM -  6:45PM | KOBL S135  | CSCI 4308 | Software Engineering Project 1                   | Sreesha Nath, Trevor DiMartino | 4   | A     |
 | `.T...` |  5:30PM -  6:45PM | KOBL S135  | CSCI 4308 | (recitation)                                     | James Watson                   | -   | -     |
 
 ---
